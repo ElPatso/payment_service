@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: service-two
+server:
+  port: 8100
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka:8761/eureka
